@@ -9,7 +9,7 @@
 npm install https://github.com/somejs/some-db-redis/archive/master.tar.gz
 npm test
 ```
-Зависит от **[some-db](https://github.com/somejs/some-db)** и **[some-model](https://github.com/somejs/some-model)**. Для тестирования необходимы **[mocha]()** и **[chai]()**.
+Зависит от **[some-db](https://github.com/somejs/some-db)**, **[some-model](https://github.com/somejs/some-model)** и **[redis](https://github.com/mranney/node_redis)**. Для тестирования необходимы **[mocha]()** и **[chai]()**.
 
  
 ## API и [документация](http://api.somejs.org/DbRedis)
