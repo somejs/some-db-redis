@@ -1,0 +1,39 @@
+{
+  "name": "some-db-redis",
+  "version": "0.0.1",
+  "description": "some redis database",
+  "keywords": [
+    "some", "db", "domain", "specific", "language",
+    "async", "redis", "database", "mapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somejs/some-db.git"
+  },
+  "contributors": [
+    {
+      "name": "Teh Freak",
+      "email": "tehfreak@awesome39.com"
+    },
+    {
+      "name": "Free Kode",
+      "email": "freekode@awesome39.com"
+    }
+  ],
+  "main": "./lib/Db",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "some-db": "https://github.com/somejs/some-db/archive/master.tar.gz",
+    "some-model": "https://github.com/somejs/some-model/archive/master.tar.gz"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "license": "MIT"
+}
